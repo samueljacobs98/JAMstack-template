@@ -1,0 +1,64 @@
+:root {
+  /* Variables go here */
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  text-rendering: optimizeSpeed;
+  line-height: 1.5;
+  background-color: var(--colour-primary);
+  /* Set your --colour-primary and --ff-primary */
+  font-family: var(--ff-primary);
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+a,
+a:visited {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover,
+button:hover {
+  cursor: pointer;
+}
+
+li {
+  list-style-type: none;
+}
+
+.important,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--ff-secondary);
+  /* Set your --ff-secondary */
+}
+
+/* Utilities */
+
+.flex-group {
+  display: flex;
+  flex-wrap: wrap;
+}
