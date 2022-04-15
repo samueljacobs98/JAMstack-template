@@ -3,7 +3,7 @@ title: Article 1 name
 author: John Doe
 date: 2022-05-01
 tags: ["post"]
-image: /assets/blog/article1.jpg
+image: /assets/images/article1.jpg
 imageAlt: This is the image caption
 description: Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis accusantium sit illo neque rem omnis quaerat, nam similique vitae delectus ad magni vel quo maxime, magnam placeat. Reprehenderit, distinctio aliquam?
 ---
